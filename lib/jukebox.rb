@@ -49,7 +49,7 @@ def run
   help
   
   enter = puts "Please enter a command:"
-  command = gets.chomp
+  command = gets.chomp.strip
   
   if command != "exit" 
     enter 
