@@ -34,7 +34,9 @@ def play(songs)
     ans = gets.chomp 
     if ans == value  
       puts "Playing #{value}."
-    elsif 
+    elsif ans == songs[index+1]
+      puts "Playing "
+    else   
       puts "Invalid input, please try again"
   end
 end 
