@@ -21,7 +21,8 @@ end
 
 def list(songs)
   ans = ""
-  songs.each_with_index(1)
+  songs.each_with_index(1) do |value, index|
+    
   
 end
 
