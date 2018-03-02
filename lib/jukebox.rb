@@ -53,15 +53,17 @@ def run
    puts "Please enter a command:"
    command = gets.chomp
   
-  case command 
-    when "list"
-    list(songs) 
+    case command 
+      when "list"
+      list(songs) 
   
-    when "play"
-    play(songs)
+      when "play"
+      play(songs)
    
-    when "exit"
-    exit_jukebox
+      when "exit"
+      exit_jukebox
+    end 
+  end
 end 
 
 
