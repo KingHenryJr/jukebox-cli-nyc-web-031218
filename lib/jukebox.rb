@@ -33,7 +33,7 @@ def play(songs)
     
     ans = gets.chomp 
     if (1..9).to_a.include?(ans.to_i)
-      puts "Playing #{song[ans]}."
+      puts "Playing #{songs[ans]}."
     elsif songs.include?(ans)
       puts "Playing #{ans}"
     else   
