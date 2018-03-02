@@ -48,7 +48,9 @@ end
 def run 
   help
   
-  enter = puts "Please enter a command:"
+  puts "Please enter a command:"
+  
+  
   command = gets.chomp.strip
   
   case command 
