@@ -20,6 +20,8 @@ puts help
 end
 
 def list(songs)
+  ans = ""
+  songs.each_with_index
   
 end
 
