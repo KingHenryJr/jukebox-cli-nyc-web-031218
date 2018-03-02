@@ -31,15 +31,9 @@ def play(songs)
   puts "Please enter a song name or number:"
   ans = gets.chomp 
   if songs.include?(ans) == true 
-    
-    
-    if ans === value || ans === index
       puts "Playing #{value}."
     else 
       puts "Invalid input, please try again"
-   
-   
-    end 
   end
 end 
 
