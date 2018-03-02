@@ -32,10 +32,10 @@ def play(songs)
   
     
     ans = gets.chomp 
-    if ans == value  
-      puts "Playing #{value}."
-    elsif songs.include?()
-      puts "Playing #{}"
+    if ans.
+      puts "Playing #{song[]}."
+    elsif songs.include?(ans)
+      puts "Playing #{ans}"
     else   
       puts "Invalid input, please try again"
     end
