@@ -48,8 +48,14 @@ end
 def run 
   help
   
-  puts "Please enter a command:"
+  enter = puts "Please enter a command:"
   command = gets.chomp
+  
+  if command != "exit" 
+    enter 
+  
+  
+  
   
   
   
