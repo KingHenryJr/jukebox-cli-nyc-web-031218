@@ -53,7 +53,7 @@ def run
   
   case command 
   
-  
+  when 
   
   
   
