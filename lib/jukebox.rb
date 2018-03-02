@@ -10,7 +10,7 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-def help(songs) 
+def help
  help = "I accept the following commands:
 - help : displays this help message
 - list : displays a list of songs you can play
