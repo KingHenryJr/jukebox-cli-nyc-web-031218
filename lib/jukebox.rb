@@ -22,7 +22,7 @@ end
 def list(songs)
   ans = ""
   songs.each_with_index(1) do |value, index|
-    
+    puts "#{index}. #{songs.value}"
   
 end
 
