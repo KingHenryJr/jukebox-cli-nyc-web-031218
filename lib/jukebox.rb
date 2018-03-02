@@ -54,14 +54,14 @@ def run
    command = gets.chomp
   
   case command 
-  
-  when "list"
+    when "list"
     list(songs) 
   
-  when "play"
+    when "play"
     play(songs)
    
-  when 
+    when "exit"
+    exit_jukebox
 end 
 
 
