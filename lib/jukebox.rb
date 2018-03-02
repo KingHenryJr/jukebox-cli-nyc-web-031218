@@ -48,10 +48,10 @@ end
 def run 
   help
   
-  puts "Please enter a command:"
-  while command =! "exit"
   
-  command = gets.chomp.strip
+  while command =! "exit"
+   puts "Please enter a command:"
+   command = gets.chomp.strip
   
   case command 
   
