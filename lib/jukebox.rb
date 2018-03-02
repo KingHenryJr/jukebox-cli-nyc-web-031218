@@ -51,8 +51,7 @@ def run
   enter = puts "Please enter a command:"
   command = gets.chomp.strip
   
-  if command != "exit" 
-    enter 
+  case enter 
   
   
   
