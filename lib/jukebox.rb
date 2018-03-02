@@ -21,7 +21,7 @@ end
 
 def list(songs)
   ans = ""
-  songs.each_with_index
+  songs.each_with_index(1)
   
 end
 
