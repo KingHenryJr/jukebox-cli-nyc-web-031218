@@ -30,7 +30,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   ans = gets.chomp 
-  if songs.include?(ans) || (ans) 
+  if ans == 
       puts "Playing #{value}."
     else 
       puts "Invalid input, please try again"
